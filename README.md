@@ -28,3 +28,15 @@ O EduVerse é uma plataforma de aprendizado online inovadora que visa resolver o
 ## 📚 Anexos e Entregas Extras
 
 * **[Anexo 1: ADR 001 - Escolha do Banco de Dados Principal](adrs/adr_001.md)**
+
+## 🔵 CICLO 2: Blueprint e Decisões (Fase 2)
+
+### 2.1 Diagrama de Containers (C4 Nível 2)
+![Diagrama de Containers EduVerse](diagrams/containers_c4.png)
+
+### 2.2 Parecer Técnico: Custo vs. Desempenho
+A escolha pela Arquitetura Hexagonal impacta minimamente o desempenho em milissegundos devido às camadas de abstração, mas reduz drasticamente o custo financeiro de longo prazo. O isolamento do domínio garante que a substituição de componentes caros de infraestrutura não exija a reescrita de regras de negócio, protegendo o investimento no desenvolvimento do "cérebro" do sistema.
+
+### 2.3 Registro de Decisões Técnicas
+* [ADR 001 - Escolha do Banco de Dados NoSQL](adrs/adr_001.md)
+* [ADR 002 - Adoção da Arquitetura Hexagonal](adrs/adr_002.md)
