@@ -17,7 +17,7 @@ O EduVerse é uma plataforma de aprendizado online inovadora que visa resolver o
 * **Manutenibilidade:** O código e a infraestrutura devem facilitar atualizações modulares. *Justificativa:* O catálogo de cursos e os modelos de IA evoluirão constantemente. Uma arquitetura desacoplada permite que os engenheiros implantem novos algoritmos ou integrem novos repositórios de conteúdo (LMS) sem derrubar a plataforma inteira.
 
 ### 1.3 Diagrama de Contexto (C4 Nível 1)
-![Diagrama de Contexto EduVerse](diagrams/contexto_c4.jpg)
+![Diagrama de Contexto EduVerse](diagrams/contexto_c4.png)
 
 ### 1.4 Classificação da Estratégia
 * **Classificação:** Balanceada
